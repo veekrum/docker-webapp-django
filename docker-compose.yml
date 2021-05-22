@@ -1,10 +1,7 @@
 version: '3.3'
-
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: python:latest
     expose:
       - "8000"
     ports:
